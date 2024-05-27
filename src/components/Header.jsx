@@ -5,12 +5,12 @@ import {LinkContainer} from 'react-router-bootstrap'
 const Header = () => {
   return (
     <div>
-      <Navbar expand="lg" className='bg-gray-300 m-2 p-1'>
+      <Navbar expand="lg"  className='bg-gray-300 m-2 p-1 '>
       <Container>
 
         {/* For home page */}
         <LinkContainer to="/">
-        <Navbar.Brand className='text-gray-800 hover:text-blue-700 text-3xl font-extrabold'><i class="fa-brands fa-slack m-1"></i>E-BUY</Navbar.Brand>
+        <Navbar.Brand className='text-gray-800  hover:text-blue-800 text-2xl font-extrabold'><i class="fa-brands fa-slack m-1"></i>GADGET-STORe</Navbar.Brand>
         </LinkContainer>
         
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

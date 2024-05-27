@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom'
 
 function Product({product}) {
   return (
-    <div>
-      <Card className='my-3 p-3 rounded'>
+    <div >
+      <Card className='my-3 p-3 rounded '>
 
         {/* link to particular product through particular id... data is present in product.js */}
         <Link to={`/product/${product._id}`}>
@@ -14,7 +14,7 @@ function Product({product}) {
         </Link>
 
         
-        <Card.Body>
+        <Card.Body >
         <Link className='hover:underline underline-offset-2' to={`/product/${product._id}`}>
         <Card.Title>{product.name}</Card.Title>
         </Link>

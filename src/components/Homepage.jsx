@@ -5,7 +5,7 @@ import Product from './Product.jsx'
 
 function Homepage() {
   return (
-    <div className='p-4'>
+    <div className='p-2 '>
       <Row>
         {products.map((product)=>(
           <Col key={product._id} sm={12} md={6} lg={4}>
